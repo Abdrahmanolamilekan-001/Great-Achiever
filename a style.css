@@ -63,7 +63,7 @@
         transform: translate(1500px);
     }
     to{
-        transform: translate(-1500px);
+        transform: translate(-2000px);
     }
 }
 /* #house{

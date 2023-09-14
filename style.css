@@ -1,7 +1,7 @@
 #Box{
   border: 2px solid blue;
-  height: 200px;
-  width: 200px;
+  height: 100px;
+  width: 100px;
   animation:box 3s 2s linear forwards infinite;
   transform: translate(1500px);
 }
@@ -23,9 +23,9 @@
 
 #box2{
     border: 2px solid blue;
-    height: 200px;
-    width: 200px;
-    animation:box 3s 1s linear backwards infinite;
+    height: 100px;
+    width: 100px;
+    animation:box 4s 1s linear backwards infinite;
     transform: translate(1500px);
   }
   
@@ -36,7 +36,7 @@
       }
       to{
           background-color: yellowgreen;
-          transform: translate(30px) rotate(360deg);
+          transform: translate(40px) rotate(360deg);
           border-radius: 100%;
           box-shadow: 5px 6px goldenrod,-5px -6px greenyellow;
       }
@@ -53,6 +53,10 @@
         transform: translate(1500px);
     }
     to{
-        transform: translate(-1500px);
+        transform: translate(-2000px);
     }
+}
+#marquee{
+    border: 2px solid yellow;
+    box-shadow: 1px 2px 4px 2px yellowgreen,-1px -2px -4px -2px red;
 }
