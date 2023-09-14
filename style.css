@@ -1,0 +1,58 @@
+#Box{
+  border: 2px solid blue;
+  height: 200px;
+  width: 200px;
+  animation:box 3s 2s linear forwards infinite;
+  transform: translate(1500px);
+}
+
+@keyframes box{
+    frpm{
+        background-color: aliceblue;
+        transform: translate(1500px);
+    }
+    to{
+        background-color: blue;
+        transform: translate(40px) rotate(360deg);
+        border-radius: 100%;
+        box-shadow: 5px 6px goldenrod,-5px -6px greenyellow;
+    }
+
+}
+
+
+#box2{
+    border: 2px solid blue;
+    height: 200px;
+    width: 200px;
+    animation:box 3s 1s linear backwards infinite;
+    transform: translate(1500px);
+  }
+  
+  @keyframes box2{
+      from{
+          background-color: rgb(12, 77, 134);
+          transform: translate(1500px);
+      }
+      to{
+          background-color: yellowgreen;
+          transform: translate(30px) rotate(360deg);
+          border-radius: 100%;
+          box-shadow: 5px 6px goldenrod,-5px -6px greenyellow;
+      }
+  }
+   
+#box3{
+    display: flex;
+    transform: translate(40px);
+    animation:box3 14s 2s linear backwards infinite;
+    transform: translate(1900px);
+}
+@keyframes box3{
+    from{
+        transform: translate(1500px);
+    }
+    to{
+        transform: translate(-1500px);
+    }
+}
